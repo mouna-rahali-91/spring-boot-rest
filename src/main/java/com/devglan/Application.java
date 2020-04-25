@@ -29,6 +29,7 @@ public class Application {
             user1.setUsername("devglan");
             user1.setPassword("devglan");
             userDao.save(user1);
+            // commit 1
 
             User user2 = new User();
             user2.setFirstName("John");

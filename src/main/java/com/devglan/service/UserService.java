@@ -14,6 +14,7 @@ public interface UserService {
     User findOne(String username);
 
     User findById(int id);
+    //commit 1
 
     UserDto update(UserDto userDto);
 }
