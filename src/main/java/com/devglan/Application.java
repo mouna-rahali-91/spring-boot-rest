@@ -38,6 +38,7 @@ public class Application {
             user2.setAge(34);
             user2.setUsername("john");
             user2.setPassword("john");
+            // commit 3
             userDao.save(user2);
         };
     }
